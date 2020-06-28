@@ -1,4 +1,4 @@
-import {isEscEvent} from '../helpers';
+import {isEscEvent} from '../utils';
 
 class Popup {
   constructor(popupElement) {

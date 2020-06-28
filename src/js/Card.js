@@ -1,17 +1,3 @@
-import { isEscEvent } from '../helpers';
-
-const imageModalWindow = document.querySelector('.popup_type_image');
-
-const closeModalWindow = () => {
-  imageModalWindow.classList.remove('popup_is-opened');
-  document.removeEventListener('keyup', handleEscUp);
-};
-
-const handleEscUp = (evt) => {
-  evt.preventDefault();
-  isEscEvent(evt, closeModalWindow);
-};
-
 // Эти функции и переменные -- дубли из index.js. Они нарушают DRY, но в следующем спринте студенты удалят этот код.
 // Как "Можно лучше" посоветуйте вынести эти функции и переменные в модуль utils.js и импортировать их в класс Card.
 

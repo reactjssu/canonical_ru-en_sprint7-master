@@ -2,7 +2,7 @@ import FormValidator from './js/FormValidator.js';
 import Section, { renderer } from "./js/Section";
 import Popup from "./js/Popup";
 import PopupWithForm from './js/PopupWithForm';
-import { isEscEvent } from './helpers';
+import { isEscEvent } from './utils';
 import UserInfo from "./js/UserInfo";
 
 import "./css/pages/index.css";
